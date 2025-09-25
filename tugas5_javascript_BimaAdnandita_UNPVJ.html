@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 class="text-center">Manajemen Toko Online</h1>
+    <div class="m-5">
+      <button id="btnTambah1" type="button" class="btn btn-primary">
+        Tambah Tablet
+      </button>
+      <button id="btnTambah2" type="button" class="btn btn-primary">
+        Tambah Headset
+      </button>
+      <button id="btnTambah3" type="button" class="btn btn-primary">
+        Tambah Gamepad
+      </button>
+      <button id="btnHapus1" type="button" class="btn btn-danger">
+        Hapus Id 2
+      </button>
+      <button id="btnHapus2" type="button" class="btn btn-danger">
+        Hapus Id 1, 5, dan 7
+      </button>
+    </div>
+    <div class="card mx-5">
+      <div class="card-body">
+        <table class="table">
+          <thead>
+            <th>Id</th>
+            <th>Nama Produk</th>
+            <th>Harga Produk</th>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
